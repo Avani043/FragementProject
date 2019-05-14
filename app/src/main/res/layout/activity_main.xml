@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <fragment
+        android:id="@+id/f1"
+        android:name="com.example.acer.fragement.f1"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/f2"
+        android:name="com.example.acer.fragement.f2"
+        android:layout_width="165dp"
+        android:layout_height="364dp"
+        android:layout_below="@+id/f1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toStartOf="@+id/f3"
+        android:layout_toLeftOf="@+id/f3"></fragment>
+
+    <fragment
+        android:id="@+id/f3"
+        android:name="com.example.acer.fragement.f3"
+        android:layout_width="219dp"
+        android:layout_height="364dp"
+        android:layout_below="@+id/f1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"></fragment>
+
+</RelativeLayout>
